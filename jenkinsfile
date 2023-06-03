@@ -14,4 +14,7 @@ node {
        stage('feedback'){
               echo "Congratulation for completting this project"
        }
+       stage('Monitoring stage'){
+              echo "Pipeline is up and running"
+       }
 }
