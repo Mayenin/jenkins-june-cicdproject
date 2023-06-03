@@ -1,4 +1,4 @@
-
+ 
 // DECLERATIVE PIPLINE
 pipeline {
        agent any
