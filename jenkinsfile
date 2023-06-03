@@ -1,4 +1,4 @@
-noede {
+node {
        stage('Build'){
               echo "Build"
        }
@@ -8,5 +8,7 @@ noede {
        stage('Integration Test'){
               echo "Build"
        }
-       
+       stage('operations'){
+              echo "operaion task"
+       }
 }
