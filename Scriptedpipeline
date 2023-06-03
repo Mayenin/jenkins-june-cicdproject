@@ -1,17 +1,17 @@
- }
-       stage('Test'){
-              echo "Test"
-       }
-       stage('Integration Test'){
-              echo "Build"
-       }
-       stage('operations'){
-              echo "operaion task"
-       }
-       stage('feedback'){
-              echo "Congratulation for completting this project"
-       }
-       stage('Monitoring stage'){
-              echo "Pipeline is up and running"
-       }
-}
+//  }
+//        stage('Test'){
+//               echo "Test"
+//        }
+//        stage('Integration Test'){
+//               echo "Build"
+//        }
+//        stage('operations'){
+//               echo "operaion task"
+//        }
+//        stage('feedback'){
+//               echo "Congratulation for completting this project"
+//        }
+//        stage('Monitoring stage'){
+//               echo "Pipeline is up and running"
+//        }
+// }
