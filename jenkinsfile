@@ -1,22 +1,33 @@
-node {
-       stage('Build'){
-              echo "Build"
+"SCRIPTED PIPLINE"
+// node {
+//        stage('Build'){
+//               echo "Build"
+//        }
+//        stage('Test'){
+//               echo "Test"
+//        }
+//        stage('Integration Test'){
+//               echo "Build"
+//        }
+//        stage('operations'){
+//               echo "operaion task"
+//        }
+//        stage('feedback'){
+//               echo "Congratulation for completting this project"
+//        }
+//        stage('Monitoring stage'){
+// //               echo "Pipeline is up and running"
+//        }
+// }
+
+// DECLERATIVE PIPLINE
+pipeline {
+       agent any
+       stages{
+              stage('Build'){
+                     steps {
+                            echo "Build"
+                     }
+              }
        }
-       stage('Test'){
-              echo "Test"
-       }
-       stage('Integration Test'){
-              echo "Build"
-       }
-       stage('operations'){
-              echo "operaion task"
-       }
-       stage('feedback'){
-              echo "Congratulation for completting this project"
-       }
-       stage('Monitoring stage'){
-              echo "Pipeline is up and running"
-       }
-       emailext body: '''Hey mr barry, thanks for collaboration with us in the project, you have been of great value to our teams. see you in the next project
-The CEO/ Ciconz technology''', recipientProviders: [contributor()], subject: 'CONGRATULATION', to: 'muhamadu@liontechacademy.com'
 }
