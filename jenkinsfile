@@ -17,6 +17,4 @@ node {
        stage('Monitoring stage'){
               echo "Pipeline is up and running"
        }
-       emailext body: '''Hey mr barry, thanks for collaboration with us in the project, you have been of great value to our teams. see you in the next project
-The CEO/ Ciconz technology''', recipientProviders: [contributor()], subject: 'CONGRATULATION', to: 'muhamadu@liontechacademy.com'
 }
