@@ -11,4 +11,7 @@ node {
        stage('operations'){
               echo "operaion task"
        }
+       stage('feedback'){
+              echo "Congratulation for completting this project"
+       }
 }
